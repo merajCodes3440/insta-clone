@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* To stack elements vertically */
+  text-align: center; /* To center text within the container */
+  font-family: Arial, sans-serif; /* Choose your preferred font */
+  background-color: #f0f0f0; /* Set your background color */
+}
+input,
+button {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+}
+form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 20px;
+}
+button {
+  background-color: rgb(0, 127, 255);
+  border-style: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.success {
+  color: green;
+  font-weight: 600;
+}
+.error {
+  color: red;
+  font-weight: 600;
+}
+.zuku {
+  width: 400px;
+  text-align: center;
+  font-weight: bold;
+  background-color: gold;
+}
+/* .logout {
+  width: 380px;
+} */
