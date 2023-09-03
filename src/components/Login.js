@@ -69,7 +69,6 @@ const Login = () => {
         }, 3000);
         setError("");
       })
-      })
       .catch((error) => {
         // setTimeout(() => {
         //   setError("");
