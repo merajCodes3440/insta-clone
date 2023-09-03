@@ -63,8 +63,12 @@ const Login = () => {
         setToken(response.data.data.token);
         //  console.log(response.data.message); // token debug
         // navigate--------
-        navigate("/Mainpage");
+        setSuccess("");
+        setTimeout(() => {
+          navigate("/Mainpage");
+        }, 3000);
         setError("");
+      })
       })
       .catch((error) => {
         // setTimeout(() => {
